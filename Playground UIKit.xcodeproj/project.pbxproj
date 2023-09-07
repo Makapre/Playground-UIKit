@@ -24,6 +24,7 @@
 		F7F13EAF2AA9BDD100AE8EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F13EB22AA9BDD100AE8EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7F13EB42AA9BDD100AE8EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F13EBA2AA9BED600AE8EE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				F7F13EAF2AA9BDD100AE8EE3 /* Assets.xcassets */,
 				F7F13EB12AA9BDD100AE8EE3 /* LaunchScreen.storyboard */,
 				F7F13EB42AA9BDD100AE8EE3 /* Info.plist */,
+				F7F13EBA2AA9BED600AE8EE3 /* README.md */,
 			);
 			path = "Playground UIKit";
 			sourceTree = "<group>";
