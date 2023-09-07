@@ -9,22 +9,26 @@
 /* Begin PBXBuildFile section */
 		F7F13EA72AA9BDCF00AE8EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F13EA62AA9BDCF00AE8EE3 /* AppDelegate.swift */; };
 		F7F13EA92AA9BDCF00AE8EE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F13EA82AA9BDCF00AE8EE3 /* SceneDelegate.swift */; };
-		F7F13EAB2AA9BDCF00AE8EE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F13EAA2AA9BDCF00AE8EE3 /* ViewController.swift */; };
+		F7F13EAB2AA9BDCF00AE8EE3 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F13EAA2AA9BDCF00AE8EE3 /* Tab1ViewController.swift */; };
 		F7F13EAE2AA9BDCF00AE8EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F13EAC2AA9BDCF00AE8EE3 /* Main.storyboard */; };
-		F7F13EB02AA9BDD100AE8EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F13EAF2AA9BDD100AE8EE3 /* Assets.xcassets */; };
 		F7F13EB32AA9BDD100AE8EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F13EB12AA9BDD100AE8EE3 /* LaunchScreen.storyboard */; };
+		F7F13EBC2AA9BFBB00AE8EE3 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F13EBB2AA9BFBB00AE8EE3 /* Tab2ViewController.swift */; };
+		F7F13EBE2AA9F67C00AE8EE3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F13EBD2AA9F67C00AE8EE3 /* SwiftUIView.swift */; };
+		F7F13EC02AA9FF0200AE8EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F13EBF2AA9FF0200AE8EE3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7F13EA32AA9BDCF00AE8EE3 /* Playground UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playground UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F13EA62AA9BDCF00AE8EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F13EA82AA9BDCF00AE8EE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7F13EAA2AA9BDCF00AE8EE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7F13EAA2AA9BDCF00AE8EE3 /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
 		F7F13EAD2AA9BDCF00AE8EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7F13EAF2AA9BDD100AE8EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F13EB22AA9BDD100AE8EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7F13EB42AA9BDD100AE8EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F13EBA2AA9BED600AE8EE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F7F13EBB2AA9BFBB00AE8EE3 /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
+		F7F13EBD2AA9F67C00AE8EE3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		F7F13EBF2AA9FF0200AE8EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,14 @@
 			children = (
 				F7F13EA62AA9BDCF00AE8EE3 /* AppDelegate.swift */,
 				F7F13EA82AA9BDCF00AE8EE3 /* SceneDelegate.swift */,
-				F7F13EAA2AA9BDCF00AE8EE3 /* ViewController.swift */,
+				F7F13EAA2AA9BDCF00AE8EE3 /* Tab1ViewController.swift */,
+				F7F13EBB2AA9BFBB00AE8EE3 /* Tab2ViewController.swift */,
 				F7F13EAC2AA9BDCF00AE8EE3 /* Main.storyboard */,
-				F7F13EAF2AA9BDD100AE8EE3 /* Assets.xcassets */,
 				F7F13EB12AA9BDD100AE8EE3 /* LaunchScreen.storyboard */,
 				F7F13EB42AA9BDD100AE8EE3 /* Info.plist */,
 				F7F13EBA2AA9BED600AE8EE3 /* README.md */,
+				F7F13EBD2AA9F67C00AE8EE3 /* SwiftUIView.swift */,
+				F7F13EBF2AA9FF0200AE8EE3 /* Assets.xcassets */,
 			);
 			path = "Playground UIKit";
 			sourceTree = "<group>";
@@ -128,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F13EB32AA9BDD100AE8EE3 /* LaunchScreen.storyboard in Resources */,
-				F7F13EB02AA9BDD100AE8EE3 /* Assets.xcassets in Resources */,
+				F7F13EC02AA9FF0200AE8EE3 /* Assets.xcassets in Resources */,
 				F7F13EAE2AA9BDCF00AE8EE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F13EAB2AA9BDCF00AE8EE3 /* ViewController.swift in Sources */,
+				F7F13EAB2AA9BDCF00AE8EE3 /* Tab1ViewController.swift in Sources */,
 				F7F13EA72AA9BDCF00AE8EE3 /* AppDelegate.swift in Sources */,
 				F7F13EA92AA9BDCF00AE8EE3 /* SceneDelegate.swift in Sources */,
+				F7F13EBC2AA9BFBB00AE8EE3 /* Tab2ViewController.swift in Sources */,
+				F7F13EBE2AA9F67C00AE8EE3 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
