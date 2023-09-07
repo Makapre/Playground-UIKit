@@ -61,18 +61,42 @@
 		F7F13EA52AA9BDCF00AE8EE3 /* Playground UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F7F13EC32AAA36EB00AE8EE3 /* SwiftUI */,
+				F7F13EC22AAA36D600AE8EE3 /* View */,
+				F7F13EC12AAA36C200AE8EE3 /* Controller */,
 				F7F13EA62AA9BDCF00AE8EE3 /* AppDelegate.swift */,
 				F7F13EA82AA9BDCF00AE8EE3 /* SceneDelegate.swift */,
-				F7F13EAA2AA9BDCF00AE8EE3 /* Tab1ViewController.swift */,
-				F7F13EBB2AA9BFBB00AE8EE3 /* Tab2ViewController.swift */,
-				F7F13EAC2AA9BDCF00AE8EE3 /* Main.storyboard */,
-				F7F13EB12AA9BDD100AE8EE3 /* LaunchScreen.storyboard */,
 				F7F13EB42AA9BDD100AE8EE3 /* Info.plist */,
 				F7F13EBA2AA9BED600AE8EE3 /* README.md */,
-				F7F13EBD2AA9F67C00AE8EE3 /* SwiftUIView.swift */,
 				F7F13EBF2AA9FF0200AE8EE3 /* Assets.xcassets */,
 			);
 			path = "Playground UIKit";
+			sourceTree = "<group>";
+		};
+		F7F13EC12AAA36C200AE8EE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7F13EAA2AA9BDCF00AE8EE3 /* Tab1ViewController.swift */,
+				F7F13EBB2AA9BFBB00AE8EE3 /* Tab2ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7F13EC22AAA36D600AE8EE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7F13EB12AA9BDD100AE8EE3 /* LaunchScreen.storyboard */,
+				F7F13EAC2AA9BDCF00AE8EE3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7F13EC32AAA36EB00AE8EE3 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F7F13EBD2AA9F67C00AE8EE3 /* SwiftUIView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
