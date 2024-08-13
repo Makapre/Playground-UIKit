@@ -9,8 +9,8 @@ import UIKit
 import Combine
 
 class Tab2ViewController: UIViewController {
-    @IBOutlet weak var button: UIButton!
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var button: UIButton?
+    @IBOutlet weak var label: UILabel?
     
     @Published var buttonEnabled: Bool = false
 
@@ -20,7 +20,7 @@ class Tab2ViewController: UIViewController {
     
     @IBAction func clickButton(_ sender: Any) {
         print("clicked and toggled")
-        label.isHidden.toggle()
+        label?.isHidden.toggle()
     }
     
     @IBAction func didSwitch(_ sender: UISwitch) {
@@ -29,14 +29,23 @@ class Tab2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.isHidden = true
-        button.tintColor = .brown
+        label?.isHidden = true
+        button?.tintColor = .brown
         
         // MARK: Combine
-        switchSubscriber = $buttonEnabled.sink { print("Received \($0)") }
-        $buttonEnabled
-            .receive(on: DispatchQueue.main)
-            .assign(to: \.isEnabled, on: button)
-            .store(in: &subscribers)
+        switchSubscriber = $buttonEnabled.sink { print("Received \($0)")
+        }
+        
+        if let button {
+            $buttonEnabled
+                .receive(on: DispatchQueue.main)
+                .assign(to: \.isEnabled, on: button)
+                .store(in: &subscribers)
+        }
     }
+}
+
+@available(iOS 17, *)
+#Preview {
+    Tab2ViewController()
 }

@@ -30,3 +30,8 @@ class Tab1ViewController: UIViewController {
         vc.didMove(toParent: self)
     }
 }
+
+@available(iOS 17, *)
+#Preview {
+    Tab1ViewController()
+}
